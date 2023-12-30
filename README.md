@@ -45,9 +45,9 @@ Install Flutter:
 
 Get Dependencies:
 
-bash
+    bash
 
-flutter pub get
+    flutter pub get
 
 Run the App:
 
