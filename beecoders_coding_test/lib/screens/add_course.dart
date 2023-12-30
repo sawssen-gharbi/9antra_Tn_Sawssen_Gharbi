@@ -149,7 +149,7 @@ class _AddCourseState extends State<AddCourse> {
                         return "Price cannot be empty!";
                       } else {
                         if (val.length > 4) {
-                          return "Price must be 4 characters";
+                          return "Price should be more than 4 characters";
                         }
                       }
                       return null;
