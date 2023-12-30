@@ -11,12 +11,11 @@ void main() {
   /* WidgetsFlutterBinding.ensureInitialized(); 
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
       overlays: SystemUiOverlay.values); */ //show status bar
-
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     statusBarColor: Style.pink,
   )); // hide status bar
-  FlutterNativeSplash.remove();
   runApp(const MyApp());
+  FlutterNativeSplash.remove();
 }
 
 class MyApp extends StatelessWidget {
